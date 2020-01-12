@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a full native screen, written in Android." />
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Name" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="Account Number" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="$ number" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Save..." />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl-S" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Save As..." />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl-Shift-S" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="X" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="Import..." />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:padding="3dip"
+                android:text="X" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="Export..." />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl-E" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Quit" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
