@@ -33,62 +33,9 @@
 
         </TableRow>
 
-        <TableRow>
-
-            <TextView
-                android:layout_column="1"
-                android:padding="3dip"
-                android:text="Save..." />
-
-            <TextView
-                android:gravity="right"
-                android:padding="3dip"
-                android:text="Ctrl-S" />
-        </TableRow>
-
-        <TableRow>
-
-            <TextView
-                android:layout_column="1"
-                android:padding="3dip"
-                android:text="Save As..." />
-
-            <TextView
-                android:gravity="right"
-                android:padding="3dip"
-                android:text="Ctrl-Shift-S" />
-        </TableRow>
-
         <View
             android:layout_height="2dip"
             android:background="#FF909090" />
-
-        <TableRow>
-
-            <TextView
-                android:padding="3dip"
-                android:text="X" />
-
-            <TextView
-                android:padding="3dip"
-                android:text="Import..." />
-        </TableRow>
-
-        <TableRow>
-
-            <TextView
-                android:padding="3dip"
-                android:text="X" />
-
-            <TextView
-                android:padding="3dip"
-                android:text="Export..." />
-
-            <TextView
-                android:gravity="right"
-                android:padding="3dip"
-                android:text="Ctrl-E" />
-        </TableRow>
 
         <View
             android:layout_height="2dip"
@@ -99,8 +46,49 @@
             <TextView
                 android:layout_column="1"
                 android:padding="3dip"
-                android:text="Quit" />
+                android:text="James N." />
+
+            <TextView
+                android:padding="3dip"
+                android:text="353243" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="$ 123,123,000" />
         </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Sandor Petofi" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="786864" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="$ 1,000,000" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Martin S." />
+
+            <TextView
+                android:padding="3dip"
+                android:text="8765411" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="$ 99,999,000" />
+        </TableRow>
+
     </TableLayout>
 
 </LinearLayout>
